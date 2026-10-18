@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tawab · Portfolio</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌏</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="rays"></div>
+<div id="sea"></div>
+
+<div class="theme" role="group" aria-label="Theme">
+  <button data-t="space" aria-label="Space theme" title="Space" aria-pressed="true">🌌</button>
+  <button data-t="light" aria-label="Light theme" title="Light" aria-pressed="false">☀️</button>
+</div>
+<main class="hello" aria-label="Hello, I am Tawab">
+  <p class="greet">Hello I'm</p>
+  <div class="line name" data-t="Tawab"></div>
+  <div class="role" id="role" aria-live="off"></div>
+</main>
+<svg class="fish" id="cur" viewBox="0 0 32 32" aria-hidden="true"><path d="M7 6l9-4 9 4 5 9-3 10-9 6-10-3-5-9z" fill="#8c8479"/><path d="M7 6l9-4 9 4-8 6z" fill="#a89f92" opacity=".6"/><circle cx="12" cy="14" r="3" fill="#6b655c"/><circle cx="21" cy="20" r="2.4" fill="#6b655c"/><circle cx="17" cy="9" r="1.6" fill="#6b655c"/><circle cx="12" cy="13.6" r="3" fill="none" stroke="#b8afa2" stroke-width=".6" opacity=".6"/></svg>
+
+<button class="corner tl" data-p="about"><i class="pl earth"></i><span>About</span></button>
+<button class="corner tr" data-p="projects"><i class="pl moon"></i><span>Projects</span></button>
+<button class="corner bl" data-p="skills"><i class="pl saturn"></i><span>Skills</span></button>
+<button class="corner br" data-p="contact"><i class="pl mars"></i><span>Contact</span></button>
+
+<section class="panel" id="about" aria-label="About"><div class="inner">
+  <button class="close" aria-label="Close">✕</button>
+  <h1>About</h1>
+  <div class="about-intro">
+    <div class="avatar" title="Click to flip"><div class="flip">
+      <div class="face front"><img src="images/claude.gif" alt="Tawab"></div>
+      <div class="face back"><img src="images/claudeceo.png" alt="Tawab"></div>
+    </div></div>
+    <p>Hi, I'm Tawab.  I turn ideas into responsive, fully functional websites, taking them from concept to deployment.</p>
+    <p>I come from Vangaon, a small village located in the Palghar district. I completed my schooling at St. Mary’s High School, Dahanu, and my 11th and 12th at M.K. Junior College, Chinchani, with distinction.I have completed my B.E. Information Technology from Vidyavardhini's College of Engineering and Technology, Vasai.</p>
+  </div>
+  <h2 class="sub">Education</h2>
+  <div class="card"><h2>2022 - 2026</h2><h2>B.E. &nbsp;IT (Information Technology) Engineering</h2><p class="when">Vidyavardhini's College of Engineering and Technology, Vasai</p><p>CGPA: 7.75/10 , University of Mumbai</p></div>
+  <div class="card"><h2>2020 - 2022</h2><h2>Higher Secondary School (HSC) Science<h2></h2><p class="when">M.K. Junior College, Chinchani,Maharashtra State Board</p><p>First Class Distinction , Maharashtra State Board</p></div>
+  <div class="card"><h2>2020</h2><h2>High School (10th)</h2><p class="when"></p>St.Mary’s High School, Dahanu<p>Percentage: 90.60% , Maharashtra State Board</p></div>
+  <h2 class="sub">Extra Certifications</h2>
+  <div class="card sm"><h2>🏅 Google AI Essentials</h2><p class="when">Coursera · Aug-Sep 2025</p><p><a href="https://drive.google.com/file/d/1sFtVc4WaqqMNgFxyM4g93nu_7dIYrvsA/view?usp=sharing">View certificate</a></p></div>
+  <div class="card sm"><h2>🏅 VCET Oscillation'26 1st PLace</h2><p class="when">Vidyavardhini's College of Engineering and Technology · April 2026</p><p><a href="https://drive.google.com/file/d/11hro1cvM0fPH5oeTgZzjtXyN6XRJFdfX/view?usp=sharing">View certificate</a></p></div>
+  <a class="resume-btn" href="files/TawabResume.pdf" download="Tawab-Shaikh-Resume.pdf" target="_blank" rel="noopener">Download Resume ⬇ </a>
+  <p class="note">Resume · Updated October 2026</p>
+</div></section>
+
+<section class="panel" id="projects" aria-label="Projects"><div class="inner">
+  <button class="close" aria-label="Close">✕</button>
+  <h1>Projects</h1>
+  <div class="shot">
+  <img src="images/Project1.png" alt="Project one dashboard" loading="lazy">
+  <img src="images/Project12.png" alt="Project one report page" loading="lazy">
+  <img src="images/Project14.png" alt="Project one mobile view" loading="lazy">
+</div>
+<h2>HerbAi</h2><p>HerbAi is an AI-powered plant identification platform that uses deep learning to identify plants from images and provides useful information about their benefits, characteristics, and care. <a href="https://herbai-live.vercel.app/">Launch project</a></p>
+  <div class="shot">
+  <img src="images/Project2.png" alt="Project two dashboard" loading="lazy">
+  <img src="images/Project21.png" alt="Project two report page" loading="lazy">
+</div>
+<h2>Recycling Helper</h2><p>Developed a web application that helps users identify appropriate recycling methods for items based on their material type. <a href="https://github.com/Tawab44/RecycleNow">View project</a></p>
+  <div class="shot">
+  <img src="images/Project3.png" alt="Project three dashboard" loading="lazy">
+</div>
+<h2>Weather Live</h2><p>WeatherLive is a responsive weather forecasting web app that uses the OpenWeatherMap API to deliver real-time weather updates, forecasts, and detailed weather insights for cities worldwide. <a href="https://github.com/Tawab44/WeatherLive">View project</a></p>
+</div></section>
+
+<section class="panel" id="skills" aria-label="Skills"><div class="inner">
+  <button class="close" aria-label="Close">✕</button>
+  <h1>Skills</h1>
+  <p class="note">Eager to learn new Technologies</p>
+  <h3 class="grp">Frontend</h3>
+  <ul class="chips">
+    <li style="--d:0.0s"><button type="button"><span class="logo" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="2" y="2" width="28" height="28" rx="3" fill="#f7df1e"/><text x="29" y="28" text-anchor="end" font-size="13" font-weight="700" fill="#111" font-family="Arial,sans-serif">JS</text></svg></span>JavaScript</button></li>
+    <li style="--d:0.4s"><button type="button"><span class="logo" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M4 2h24l-2.2 24L16 30 6.2 26z" fill="#e44d26"/><path d="M16 5v22.5l7.8-2.4L25.6 5z" fill="#f16529"/><text x="16" y="21" text-anchor="middle" font-size="12" font-weight="700" fill="#fff" font-family="Arial,sans-serif">5</text></svg></span>HTML</button></li>
+    <li style="--d:0.8s"><button type="button"><span class="logo" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M4 2h24l-2.2 24L16 30 6.2 26z" fill="#264de4"/><path d="M16 5v22.5l7.8-2.4L25.6 5z" fill="#2965f1"/><text x="16" y="21" text-anchor="middle" font-size="12" font-weight="700" fill="#fff" font-family="Arial,sans-serif">3</text></svg></span>CSS</button></li>
+    <li style="--d:1.2s"><button type="button"><span class="logo" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="2" y="2" width="28" height="28" rx="6" fill="#7952b3"/><text x="16" y="23" text-anchor="middle" font-size="18" font-weight="700" fill="#fff" font-family="Arial,sans-serif">B</text></svg></span>Bootstrap</button></li>
+    <li style="--d:1.6s"><button type="button"><span class="logo" aria-hidden="true">📱</span>Responsive Web Design</button></li>
+    <li style="--d:2.0s"><button type="button"><span class="logo" aria-hidden="true"><svg viewBox="0 0 32 32"><g fill="none" stroke="#61dafb" stroke-width="1.6"><ellipse cx="16" cy="16" rx="13" ry="5"/><ellipse cx="16" cy="16" rx="13" ry="5" transform="rotate(60 16 16)"/><ellipse cx="16" cy="16" rx="13" ry="5" transform="rotate(120 16 16)"/></g><circle cx="16" cy="16" r="2.4" fill="#61dafb"/></svg></span>React</button></li>
+  </ul>
+  <h3 class="grp">Backend</h3>
+  <ul class="chips">
+    <li style="--d:2.4s"><button type="button"><span class="logo" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M16 2l12 7v14l-12 7-12-7V9z" fill="#5fa04e"/><text x="16" y="21" text-anchor="middle" font-size="14" font-weight="700" fill="#fff" font-family="Arial,sans-serif">N</text></svg></span>Node.js</button></li>
+    <li style="--d:2.8s"><button type="button"><span class="logo" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="2" y="2" width="28" height="28" rx="6" fill="#3c3c3c"/><text x="16" y="21" text-anchor="middle" font-size="13" font-weight="700" fill="#fff" font-family="Arial,sans-serif">ex</text></svg></span>Express.js</button></li>
+    <li style="--d:3.2s"><button type="button"><span class="logo" aria-hidden="true"><svg viewBox="0 0 32 32"><path id="py" d="M16 3c-5 0-5.5 2-5.5 3.5V10h6v1.2H7.5C5 11.2 3 13 3 16.5S5 22 7.5 22H10v-3.2c0-2 1.8-3.3 3.8-3.3h5.4c1.8 0 3.3-1.4 3.3-3.2V6.5C22.5 4.5 20 3 16 3z" fill="#3776ab"/><path d="M16 3c-5 0-5.5 2-5.5 3.5V10h6v1.2H7.5C5 11.2 3 13 3 16.5S5 22 7.5 22H10v-3.2c0-2 1.8-3.3 3.8-3.3h5.4c1.8 0 3.3-1.4 3.3-3.2V6.5C22.5 4.5 20 3 16 3z" fill="#ffd43b" transform="rotate(180 16 16)"/><circle cx="13" cy="6.5" r="1.1" fill="#fff"/><circle cx="19" cy="25.5" r="1.1" fill="#fff"/></svg></span>Python</button></li>
+    <li style="--d:3.6s"><button type="button"><span class="logo" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="#009688"/><path d="M17 6 9 17h6l-1 9 8-11h-6z" fill="#fff"/></svg></span>FastAPI</button></li>
+    <li style="--d:4.0s"><button type="button"><span class="logo" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="2" y="6" width="28" height="20" rx="6" fill="#4f7cff"/><text x="16" y="20" text-anchor="middle" font-size="11" font-weight="700" fill="#fff" font-family="Arial,sans-serif">API</text></svg></span>REST APIs</button></li>
+    <li style="--d:4.4s"><button type="button"><span class="logo" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 8v16c0 2.2 4.9 4 11 4s11-1.8 11-4V8c0 2.2-4.9 4-11 4S5 10.2 5 8z" fill="#4a7fd4"/><ellipse cx="16" cy="8" rx="11" ry="4" fill="#8ab4f8"/></svg></span>Database Operations</button></li>
+    <li style="--d:4.8s"><button type="button"><span class="logo" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="2" y="4" width="28" height="24" rx="6" fill="#00758f"/><text x="16" y="20" text-anchor="middle" font-size="11" font-weight="700" fill="#fff" font-family="Arial,sans-serif">SQL</text><circle cx="25" cy="9" r="2.5" fill="#f29111"/></svg></span>MySQL</button></li>
+    <li style="--d:5.2s"><button type="button"><span class="logo" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M16 2C20 7 24 10 24 16c0 5-3 8-7 9v5h-2v-5C11 24 8 21 8 16c0-6 4-9 8-14z" fill="#47a248"/><path d="M16 8v20" stroke="#fff" stroke-width="1.2"/></svg></span>MongoDB</button></li>
+  </ul>
+  <h3 class="grp">Tools</h3>
+  <ul class="chips">
+    <li style="--d:5.6s"><button type="button"><span class="logo" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="5" y="5" width="22" height="22" rx="3" transform="rotate(45 16 16)" fill="#f05032"/><g fill="#fff" stroke="#fff" stroke-width="2"><path d="M12 11l4 4m0 0v6m0-6l4-4" fill="none"/><circle cx="12" cy="11" r="2"/><circle cx="20" cy="11" r="2"/><circle cx="16" cy="21" r="2"/></g></svg></span>Git</button></li>
+    <li style="--d:6.0s"><button type="button"><span class="logo" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="#24292f"/><path d="M9 8l4 3h6l4-3v6c0 5-3 9-7 9s-7-4-7-9z" fill="#fff"/><circle cx="13" cy="15" r="1.3" fill="#24292f"/><circle cx="19" cy="15" r="1.3" fill="#24292f"/></svg></span>GitHub</button></li>
+    <li style="--d:6.4s"><button type="button"><span class="logo" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M22 3l7 3v20l-7 3L9 18l-4 3-2-1V12l2-1 4 3z" fill="#1f9cf0"/><path d="M22 3v26L9 18z" fill="#007acc"/></svg></span>VS Code</button></li>
+    <li style="--d:6.8s"><button type="button"><span class="logo" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="#ff6c37"/><path d="M8 17l16-8-6 15-3-6z" fill="#fff"/></svg></span>Postman</button></li>
+    <li style="--d:7.2s"><button type="button"><span class="logo" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="2" y="2" width="28" height="28" rx="6" fill="#000"/><path d="M16 8l8 14H8z" fill="#fff"/></svg></span>Vercel</button></li>
+    <li style="--d:7.6s"><button type="button"><span class="logo" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="2" y="2" width="28" height="28" rx="6" fill="#111"/><text x="16" y="22" text-anchor="middle" font-size="16" font-weight="700" fill="#46e3b7" font-family="Arial,sans-serif">R</text></svg></span>Render</button></li>
+  </ul>
+  <h2 class="sub">What I am great at Beyond code</h2>
+  <ul class="chips">
+    <li style="--d:8.0s"><button type="button"><span class="logo" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="2" y="4" width="28" height="24" rx="4" fill="#1d6f42"/><path d="M10 10l12 12M22 10 10 22" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/></svg></span>Excel</button></li>
+    <li style="--d:8.4s"><button type="button"><span class="logo" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="2" y="2" width="28" height="28" rx="5" fill="#001e36" stroke="#31a8ff" stroke-width="1.5"/><text x="16" y="22" text-anchor="middle" font-size="14" font-weight="700" fill="#31a8ff" font-family="Arial,sans-serif">Ps</text></svg></span>Photoshop</button></li>
+    <li style="--d:8.8s"><button type="button"><span class="logo" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="2" y="7" width="28" height="18" rx="5" fill="#f00"/><path d="M13 12l8 4-8 4z" fill="#fff"/></svg></span>Content Creation</button></li>
+    <li style="--d:1.6s"><button type="button"><span class="logo" aria-hidden="true">©️</span>Canva</button></li>
+  </ul>
+</div></section>
+
+<section class="panel" id="contact" aria-label="Contact"><div class="inner">
+  <button class="close" aria-label="Close">✕</button>
+  <h1>Contact</h1>
+  <p>Want to work together or just say hi? Reach me here.</p>
+  <div class="links">
+    <a href="mailto:you@example.com"><span class="ic"><svg viewBox="0 0 32 32"><rect x="2" y="6" width="28" height="20" rx="4" fill="#ea4335"/><path d="M4 9l12 9 12-9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linejoin="round"/></svg></span>tawabshaikh14444@gmail.com</a>
+    <a href="https://github.com/Tawab44"><span class="ic"><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="#24292f"/><path d="M9 8l4 3h6l4-3v6c0 5-3 9-7 9s-7-4-7-9z" fill="#fff"/><circle cx="13" cy="15" r="1.3" fill="#24292f"/><circle cx="19" cy="15" r="1.3" fill="#24292f"/></svg></span>GitHub</a>
+    <a href="https://www.linkedin.com/in/tawab-shaikh-795439257/"><span class="ic"><svg viewBox="0 0 32 32"><rect x="2" y="2" width="28" height="28" rx="5" fill="#0a66c2"/><path d="M9 13h3v10H9zM10.5 8.5a1.8 1.8 0 110 3.6 1.8 1.8 0 010-3.6zM14.5 13h2.9v1.4c.6-1 1.7-1.7 3.2-1.7 3 0 3.4 2 3.4 4.3V23h-3v-5.2c0-1.2 0-2.6-1.6-2.6s-1.9 1.3-1.9 2.5V23h-3z" fill="#fff"/></svg></span>LinkedIn</a>
+    <a href="https://wa.me/910000000000?text=Hi%20Tawab%2C%20I%20saw%20your%20portfolio!" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="#25d366"/><path d="M9.5 22.5l1.2-4a7 7 0 112.9 2.8z" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"/><path d="M13 12.5c.4 2.7 3.3 5.2 6 5.7l1-1.3-2-1-.9.7c-1-.4-2-1.4-2.4-2.4l.7-.9-1-2z" fill="#fff"/></svg></span>+91 92097 20744 (WhatsApp)</a>
+    <a class="addr" href="https://maps.app.goo.gl/LF1KzjwZwhg5d2kv7" target="_blank" rel="noopener" aria-label="Open address in Google Maps"><span class="ic"><svg viewBox="0 0 32 32"><path d="M16 2a9 9 0 00-9 9c0 7 9 19 9 19s9-12 9-19a9 9 0 00-9-9z" fill="#ea4335"/><circle cx="16" cy="11" r="3.6" fill="#fff"/></svg></span>Palghar, Maharashtra, India, Pin-401103</a>
+  </div>
+</div></section>
+
+<footer class="foot"><span>© 2026 Tawab Shaikh.</span> <span>All rights reserved.</span></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
