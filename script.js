@@ -9,3 +9,19 @@ document.querySelectorAll('.shot').forEach(box=>{
   box.addEventListener('mouseleave',()=>{clearInterval(timer);show(0)});
   box.addEventListener('click',()=>show(i+1));
 });
+// back button closes the open section instead of leaving the site
+(function(){
+  let pushed=false;
+  const openPanel=()=>document.querySelector('.panel.open');
+  document.querySelectorAll('.corner').forEach(b=>b.addEventListener('click',()=>{
+    if(!pushed){history.pushState({panel:1},'');pushed=true}
+  }));
+  const closedByUI=()=>{if(pushed){pushed=false;history.back()}};
+  document.querySelectorAll('.close').forEach(b=>b.addEventListener('click',closedByUI));
+  addEventListener('keydown',e=>{if(e.key==='Escape')closedByUI()});
+  addEventListener('popstate',()=>{
+    pushed=false;
+    const p=openPanel();
+    if(p)p.querySelector('.close').click();
+  });
+})();
